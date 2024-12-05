@@ -8,6 +8,7 @@ import AboutUs from "../features/aboutus/components/AboutUs";
 import Home from "../main_pages/activities/Home";
 import App from "../app/App";
 import Signup from "../components/authentication/Signup";
+import PlayBazaarPolicy from "../playbazaar/playbazaar_policy";
 
 export const routes: RouteObject[] = [
   {
@@ -23,6 +24,7 @@ export const routes: RouteObject[] = [
       { path: "contactus", element: <ContactUs /> },
       { path: "chatroom", element: <ChatRoom /> },
       { path: "home", element: <Home /> },
+      { path: "playbazaar_policy", element: <PlayBazaarPolicy /> },
 
     ],
   },

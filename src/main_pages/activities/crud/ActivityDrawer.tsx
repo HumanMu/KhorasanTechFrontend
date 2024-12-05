@@ -24,7 +24,6 @@ export default function ActivityDrawer({
   isCreateActivity,
 }: Props) {
   const initialState = selectedActivity || {
-    // spørgsmåltegnerne betyder, hvis aktivitien er tomme, så skal den erstates med hvad der står til højre for prameteren, dvs. ingenting
     id: "",
     title: "",
     date: "",

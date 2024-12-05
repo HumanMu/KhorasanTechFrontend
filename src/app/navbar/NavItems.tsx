@@ -29,6 +29,11 @@ export const NAV_ITEMS: Array<NavItem> = [
     label: "About us",
     children: [
       {
+        label: "Play Bazaar Policy",
+        subLabel: "Read what our mission is",
+        href: "/playbazaar_policy",
+      },
+      {
         label: "Who we are",
         subLabel: "Read about Khorasan Technology",
         href: "/aboutus",
