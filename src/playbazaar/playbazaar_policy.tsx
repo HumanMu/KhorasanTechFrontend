@@ -37,6 +37,24 @@ const PlayBazaarPolicy = () => {
             By using these features, you agree to follow these guidelines and contribute to a positive and respectful environment for everyone.
           </Text>
 
+          <Text {...TextHeader}>Deleting Your Play Bazaar Account</Text>
+          <p>
+              If you want to delete your Play Bazaar account, you should follow these steps:
+            </p>
+            <ol>
+              <li>1. Login to the Play Bazaar app with your phone.</li>
+              <li>2. Press the menu icon (the 3 lines at the top right corner).</li>
+              <li>3. Choose <strong>Settings</strong>.</li>
+              <li>4. At the top of the page, choose <strong>Account</strong>.</li>
+              <li>5. Under the "Danger Zone," press <strong>Delete my account</strong>.</li>
+              <li>6. Enter your password.</li>
+              <li>7. Press <strong>Confirm</strong>.</li>
+            </ol>
+            <p>
+              Now your account is deleted. If this didn’t work for you, please send us an
+              email, and we will gladly help you with your problem.
+            </p>
+
 
           <Text {...TextHeader}>Policy Agreement</Text>
           <Text>
@@ -48,9 +66,11 @@ const PlayBazaarPolicy = () => {
             We reserve the right to update or modify this privacy policy at any time. Any changes will be reflected on this page, and your continued use of the app constitutes your acceptance of such changes.
           </Text>
 
+    
           <Text {...TextHeader}>Contact Us</Text>
           <Text>If you have any questions or concerns regarding this privacy policy, please contact us at kh.techn@gmail.com</Text>
-          
+
+
 
         </Stack>
       </VStack>
