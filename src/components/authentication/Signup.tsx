@@ -42,64 +42,64 @@ export default observer(function SignUp() {
                 <CardBody style={{ position: "relative" }}>
                   <Card {...CardOuter}>
                     <CardBody style={{ position: "relative" }}>
-                    <FormLabel>Username</FormLabel>
+                    <FormLabel textColor={'white'}>Username</FormLabel>
                       <InputGroup>
                         <Input
                           type="username"
                           name="username"
                           value={values.username}
                           onChange={handleChange}
-                          borderColor={'black'}
+                          borderColor={'white'}
                         />
                       </InputGroup>
-                    <FormLabel>First name</FormLabel>
+                    <FormLabel textColor={'white'}>First name</FormLabel>
                       <InputGroup>
                         <Input
                           type="text"
                           name="firstname"
                           value={values.firstname}
                           onChange={handleChange}
-                          borderColor={'black'}
+                          borderColor={'white'}
                         />
                       </InputGroup>
-                    <FormLabel>Last name</FormLabel>
+                    <FormLabel textColor={'white'}>Last name</FormLabel>
                       <InputGroup>
                         <Input
                           type="text"
                           name="lastname"
                           value={values.lastname}
                           onChange={handleChange}
-                          borderColor={'black'}
+                          borderColor={'white'}
                         />
                       </InputGroup>
-                      <FormLabel>Email</FormLabel>
+                      <FormLabel textColor={'white'}>Email</FormLabel>
                       <InputGroup>
                         <Input
                           type="email"
                           name="email"
                           value={values.email}
                           onChange={handleChange}
-                          borderColor={'black'}
+                          borderColor={'white'}
                         />
                         </InputGroup>
-                      <FormLabel>Password</FormLabel>
-                      <InputGroup>
+                      <FormLabel textColor={'white'}>Password</FormLabel>
+                      <InputGroup >
                         <Input
                           type="password"
                           name="password"
                           value={values.password}
                           onChange={handleChange}
-                          borderColor={'black'}
+                          borderColor={'white'}
                         />
                       </InputGroup>
-                      <FormLabel>Re-password</FormLabel>
+                      <FormLabel textColor={'white'}>Re-password</FormLabel>
                       <InputGroup>
                         <Input
                           type="password"
                           name="repassword"
                           value={values.repassword}
                           onChange={handleChange}
-                          borderColor={'black'}
+                          borderColor={'white'}
                         />
                       </InputGroup>
                       <ErrorMessage name={"error"}
@@ -151,14 +151,14 @@ const signInHeader = {
   transform: "translateX(-50%)",
   fontWeight: "bold",
   fontSize: ["10px", "12px", "15px", "20px"],
-  textColor: "black",
+  textColor: "white",
 };
 
 const CreateAccountLink = {
     position: "absolute" as const,
     bottom: "5px" as const,
     right: "6vw" as const,
-    textColor: "black" as const,
+    textColor: "white" as const,
     as: "ins" as const,
     fontSize: ["12px", "15", "20px"],
 };
@@ -175,7 +175,7 @@ const CardOuter = {
   bg: "#db3e00", // Background
   variant: "outline",
   borderRadius: "10px",
-  borderColor: "black",
+  borderColor: "white",
   borderWidth: "1px",
   w: ["80vw", 400, 500, 600],
   minWidth: 400,
